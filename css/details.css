@@ -1,0 +1,435 @@
+@import "headfoot.css";
+.shop_detail{
+    width: 100%;
+    height: 0.98rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.88rem;
+}
+.shop_detail div{
+    width: 50%;
+    height: 0.98rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.98rem;
+}
+.shop_detail div:first-child{
+    color: #ffcb3f;
+}
+.shop_photo{
+    height: 5rem;
+    width: 100%;
+}
+.detail_score{
+    float: right;
+    margin: 0.09rem 0.28rem 0 0;
+    font-size: 0.24rem;
+}
+.detail_score span{
+    font-size: 0.3rem;
+    color: #ffcb3f;
+}
+.detail_score:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.detail_name{
+    font-size: 0.3rem;
+    margin-top: 0.64rem;
+}
+.detail_content{
+    width: 6.66rem;
+    height: 4.49rem;
+    margin: auto;
+    font-size: 0.24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.detail_content li{
+     overflow: hidden;
+ }
+.slicer{
+    width: 6.58rem;
+    height: 0.01rem;
+    background: #d7d7d7;
+}
+.yellow-slicer{
+    width: 0.47rem;
+    height: 0.02rem;
+    background: #ffcb3f;
+}
+.goods_del span{
+    margin-left: 0.24rem;
+}
+.goods_img{
+    line-height: 0.37rem;
+}
+.goods_img p{
+    float: left;
+}
+.color_img{
+    float: left;
+    margin-left: 0.24rem;
+}
+.color_img img{
+    margin-right: 0.1rem;
+    width: 0.37rem;
+    height: auto;
+}
+.detail-price{
+    font-size: 0.16rem;
+}
+.detail-price span{
+    font-size: 0.3rem;
+}
+.buy_quant{
+    height: auto;
+    width: 100%;
+    line-height: 0.43rem;
+}
+.buy_quant p{
+    float: left;
+}
+.quant_add{
+    width: 1.64rem;
+    height: 0.43rem;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.43rem;
+}
+.quant_add div{
+    width: 0.42rem;
+    height: 0.42rem;
+    border: 0.01rem solid #e2e2e2;
+    text-align: center;
+}
+.past_brower{
+    width: 3.01rem;
+    height: auto;
+    margin: 0.8rem 0 0 0.4rem;
+}
+.past_hr{
+    width: 2.97rem;
+    height: 0.01rem;
+    background: #d7d7d7;
+}
+.past_hr-1{
+    width: 0.47rem;
+    height: 0.02rem;
+    background: #ffcb3f;
+}
+.past_brower p{
+    margin-top: 0.45rem;
+    font-size: 0.24rem;
+    color: #000;
+}
+.past_brower p span{
+    font-size: 0.26rem;
+    color: #ffcb3f;
+}
+.newproitem-box{
+    width: 100%;
+    height: 5.11rem;
+    overflow: hidden;
+    margin-top: 0.29rem;
+}
+.newProduct_item{
+    height: 5.11rem;
+    width: 13.32rem;
+    overflow: hidden;
+}
+.newProduct_list{
+    width: 3.09rem;
+    height: 5.11rem;
+    margin-left: 0.24rem;
+    float: left;
+    position: relative;
+}
+.newProduct_list img{
+    display: block;
+    width: 3.09rem;
+    height: 2.89rem;
+}
+.newProduct_list .hr{
+    width: 0.27rem;
+    height: 0.01rem;
+    position: absolute;
+    top: 3.08rem;
+    left: 0.17rem;
+    background: black;
+}
+.newpro_eng{
+    margin-top: 0.3rem;
+    margin-left: 0.17rem;
+    font-size: 0.18rem;
+}
+.newpro_china{
+    margin-top: 0.1rem;
+    margin-left: 0.17rem;
+    font-size: 0.24rem;
+}
+.newpro_price{
+    margin-top: 0.91rem;
+    margin-left: 0.18rem;
+    font-size: 0.18rem;
+}
+.newpro_price span{
+    font-size: 0.26rem;
+    font-weight: bold;
+}
+.newpro_addbuy{
+    width: 1.52rem;
+    height: 0.43rem;
+    border-radius: 0.05rem;
+    background: #ffcb3f;
+    position: absolute;
+    text-align: center;
+    line-height: 0.43rem;
+    right: 0.23rem;
+    bottom: 0.08rem;
+    font-weight: bold;
+    color: white;
+    font-size: 0.22rem;
+}
+.newpro_addbuy i{
+    font-size: 0.16rem;
+    color: white;
+}
+/*商品详情*/
+.new_start{
+    width: 2.05rem;
+    height: 0.91rem;
+    margin: 0.79rem auto 0.58rem;
+    text-align: center;
+}
+.horiline_1{
+    width: 0.48rem;
+    height: 0.02rem;
+    background: #ffcb3f;
+    margin-left: 0.36rem;
+}
+.horiline_2{
+    width: 1.48rem;
+    height: 0.01rem;
+    background: #d7d7d7;
+    margin: 0.08rem 0 0.04rem 0.36rem;
+}
+.english_title{
+    font-size: 0.18rem;
+}
+p.newstar_first{
+    font-size: 0.32rem;
+    color: #000;
+    margin: 0.15rem 0 0.13rem;
+}
+p.newstar_first span{
+    font-size: 0.32rem;
+    color: #ffcb3f;
+}
+.horiline_3{
+    width: 0.34rem;
+    height: 0.02rem;
+    background: #000;
+    margin: auto;
+}
+.shop-detail-img1{
+    display: block;
+    width: 6.41rem;
+    height: 5.48rem;
+    margin: 0.73rem  auto 1.07rem;
+}
+.screna,.shop_xijie{
+    width: 100%;
+    height: 5.35rem;
+    position: relative;
+}
+.shop_xijie{
+    margin-top: 0.95rem;
+}
+.shop_xijie:before,.screna:before{
+    content: "";
+    display: block;
+    width: 0.03rem;
+    height: 1.06rem;
+    position: absolute;
+    left: 2.24rem;
+    bottom: 0.34rem;
+    background: #ffcb3f;
+}
+.shop-detail-img2{
+    display: block;
+    width: 7.5rem;
+    height: 4.14rem;
+    margin-bottom: 0.72rem;
+}
+.screan_shuxian{}
+.screna-detail{
+    width: 1.06rem;
+    height: 0.48rem;
+    margin: 0 auto;
+}
+.screna-detail p:first-child{
+    font-size: 0.24rem;
+}
+.screna-detail p:last-child{
+    font-size: 0.18rem;
+}
+/*新品推荐*/
+.recommend_shop{
+    width: auto;
+    height: auto;
+    margin: 0.69rem 0 0.45rem 0.24rem;
+    padding-left: 0.09rem;
+    font-size: 0.3rem;
+    border-left: 0.02rem solid #ffcb3f;
+}
+.recommend_list{
+    width: 6.76rem;
+    height: 10.41rem;
+    margin: 0.24rem auto 0.98rem;
+    overflow: hidden;
+}
+.recommend_list li{
+    float: left;
+}
+.recommend_item{
+    width: 3.24rem;
+    height: 5.08rem;
+    margin: 0 0.26rem 0.25rem 0;
+}
+.recommend_item_1{
+    width: 3.26rem;
+    height: 5.09rem;
+    margin-bottom: 0.25rem;
+}
+.recommend_list li img{
+    display: block;
+    width: 100%;
+    height: 3.12rem;
+}
+.recommend_list li .recommend_unline{
+    width: 0.32rem;
+    height: 0.03rem;
+    margin: 0.16rem 0 0 0.23rem;
+    background: black;
+}
+.recommend_detail{
+    font-size: 0.18rem;
+    margin: 0.11rem 0 0 0.22rem;
+}
+.recommend_detail span{
+    font-size: 0.24rem;
+}
+.recommend_price{
+    font-size: 0.18rem;
+    margin: 0.65rem 0 0 0.2rem;
+}
+.recommend_price span{
+    font-size: 0.23rem;
+    font-weight: bold;
+}
+/*服务*/
+.service_step{
+    width: 6.62rem;
+    height: 0.98rem;
+    margin: 0.55rem auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service_step .big_service{
+    width: 0.97rem;
+    height: 0.97rem;
+    border-radius:50%;
+    border: 0.01rem solid #ffcb3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.service_step .service_attach{
+    width: 0.82rem;
+    height: 0.01rem;
+    background: #ffcb3f;
+}
+.big_service .small_service{
+    width: 0.77rem;
+    height: 0.77rem;
+    background: #ffcb3f;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.77rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: white;
+}
+.big_service .zuozero{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    border: 0.01rem solid #ffcb3f;
+    position: absolute;
+    top: 0.06rem;
+    left: 0.1rem;
+}
+.big_service .youzero{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    border: 0.01rem solid #ffcb3f;
+    position: absolute;
+    bottom: 0.06rem;
+    right: 0.1rem;
+}
+.service_stepname{
+    width: 6.62rem;
+    height: 0.24rem;
+    margin: 0.7rem auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.servicename_item{
+    font-size: 0.24rem;
+}
+.foot_tab{
+    box-sizing: border-box;
+    border-top: 0.01rem solid #eee;
+}
+.foot_tab  .shop_collect{
+    width: 1.3rem;
+    height: 0.97rem;
+    border-right: 0.01rem solid #eee;
+    float: left;
+    text-align: center;
+}
+.shop_collect p{
+    font-size: 0.2rem;
+}
+.shop_collect i{
+    display: block;
+    margin-top: 0.15rem;
+    font-size: 0.38rem;
+}
+.add_car{
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 0.34rem 0 0 1rem;
+    font-size: 0.28rem;
+    color: #666;
+}
+.off_hand{
+    width: 3.09rem;
+    height: 0.96rem;
+    background: #ffcb3f;
+    border-radius: 0.05rem;
+    float: right;
+    text-align: center;
+    line-height: 0.96rem;
+    font-size: 0.28rem;
+    color: white;
+    font-weight: bold;
+}

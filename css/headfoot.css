@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    position: fixed;
+    border-bottom: 0.01rem solid #f2f2f2;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.content {
+    width: 7.02rem;
+    height: 0.88rem;
+    margin: 0 auto;
+    line-height: 0.88rem;
+}
+.content i {
+    font-size: 0.28rem;
+    color: #323232;
+}
+.content img{
+    width: 0.93rem;
+    height: 0.3rem;
+    margin-left: 2.7rem;
+    margin-top: 0.29rem;
+}
+.content ul{
+    width: 0.36rem;
+    height: 0.08rem;
+    float: right;
+    margin-top: 0.4rem;
+}
+.content ul li{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #000;
+    float: left;
+    margin-right: 0.06rem;
+}
+.content ul li:nth-child(3){
+    margin-right: 0;
+}
+.foot_tab{
+    width: 7.5rem;
+    height: 0.98rem;
+    background: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.foot_tab .foot_item{
+    width: 1.875rem;
+    height: 0.98rem;
+    float: left;
+    text-align: center;
+    font-size: 0.2rem;
+    padding-top: 0.16rem;
+    box-sizing: border-box;
+}
+.foot_item i{
+    font-size: 0.4rem;
+    color: #000;
+}
+.ziti1{
+    font-family: 微软雅黑;
+}
+.ziti2{
+    font-family: Arial Narrow;
+}

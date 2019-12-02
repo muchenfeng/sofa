@@ -1,0 +1,479 @@
+.ziti1{
+    font-family: 微软雅黑;
+}
+.ziti2{
+    font-family: "Arial";
+}
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    position: fixed;
+    border-bottom: 0.01rem solid #f2f2f2;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.content {
+    width: 7.02rem;
+    height: 0.88rem;
+    margin: 0 auto;
+    line-height: 0.88rem;
+}
+.content i {
+    font-size: 0.28rem;
+    color: #323232;
+}
+.content img{
+    width: 0.93rem;
+    height: 0.3rem;
+    margin-left: 2.7rem;
+    margin-top: 0.29rem;
+}
+.content ul{
+    width: 0.36rem;
+    height: 0.08rem;
+    float: right;
+    margin-top: 0.4rem;
+}
+.content ul li{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #000;
+    float: left;
+    margin-right: 0.06rem;
+}
+.content ul li:nth-child(3){
+    margin-right: 0;
+}
+.top_tab{
+    width: 7.02rem;
+    height: 0.88rem;
+    margin: 0.88rem auto 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top_tab li{
+    width: auto;
+    height: auto;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.7);
+}
+.banner{
+    width: 7.5rem;
+    height: 3.84rem;
+    position: relative;
+    border-top: 0.01rem solid #ffcb3f;
+}
+.banner_buy{
+    width: 1.09rem;
+    height: 0.33rem;
+    text-align: center;
+    line-height: 0.33rem;
+    font-size: 0.18rem;
+    position: absolute;
+    left: 0.67rem;
+    bottom: 0.97rem;
+    border-radius: 0.08rem;
+    background: #ffcb3f;
+    color: white;
+    font-weight: bold;
+}
+.banner{
+    width: 7.5rem;
+    height: 3.84rem;
+}
+.banner_photo{
+    width: 7.5rem;
+    height: 3.84rem;
+}
+.banner_img img{
+    width: 7.5rem;
+    height: auto;
+}
+.banner_shuffling{
+    width: 0.9rem;
+    height: 0.09rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 3.6rem;
+}
+.banner_shuffling li{
+    width: 0.08rem;
+    height: 0.08rem;
+    float: left;
+    border-radius: 50%;
+    margin-right: 0.33rem;
+    background: #f8f8f8;
+}
+.banner_shuffling li:nth-child(3){
+    margin-right: 0;
+}
+.new_start{
+    width: 2.05rem;
+    height: 0.91rem;
+    margin: 0.79rem auto 0.58rem;
+    text-align: center;
+}
+.horiline_1{
+    width: 0.48rem;
+    height: 0.02rem;
+    background: #ffcb3f;
+    margin-left: 0.36rem;
+}
+.horiline_2{
+    width: 1.48rem;
+    height: 0.01rem;
+    background: #d7d7d7;
+    margin: 0.08rem 0 0.04rem 0.36rem;
+}
+.english_title{
+    font-size: 0.18rem;
+}
+p.newstar_first{
+    font-size: 0.32rem;
+    color: #000;
+    margin: 0.15rem 0 0.13rem;
+}
+p.newstar_first span{
+    font-size: 0.32rem;
+    color: #ffcb3f;
+}
+.horiline_3{
+    width: 0.34rem;
+    height: 0.02rem;
+    background: #000;
+    margin: auto;
+}
+.newProduct_score{
+    width: 0.56rem;
+    height: 0.34rem;
+    float: right;
+    margin: 0.19rem 0.36rem 0 0;
+    font-size: 0.20rem;
+}
+.newProduct_score span{
+    color: #ffcb3f;
+    font-size: 0.22rem;
+}
+.newproitem-box{
+    width: 100%;
+    height: 5.11rem;
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+.newProduct_item{
+    height: 5.11rem;
+    width: 13.32rem;
+    overflow: hidden;
+}
+.newProduct_list{
+    width: 3.09rem;
+    height: 5.11rem;
+    margin-left: 0.24rem;
+    float: left;
+    position: relative;
+}
+.newProduct_list img{
+    display: block;
+    width: 3.09rem;
+    height: 2.89rem;
+}
+.newProduct_list .hr{
+    width: 0.27rem;
+    height: 0.01rem;
+    position: absolute;
+    top: 3.08rem;
+    left: 0.17rem;
+    background: black;
+}
+.newpro_eng{
+    margin-top: 0.3rem;
+    margin-left: 0.17rem;
+    font-size: 0.18rem;
+}
+.newpro_china{
+    margin-top: 0.1rem;
+    margin-left: 0.17rem;
+    font-size: 0.24rem;
+}
+.newpro_price{
+    margin-top: 0.91rem;
+    margin-left: 0.18rem;
+    font-size: 0.18rem;
+}
+.newpro_price span{
+    font-size: 0.26rem;
+    font-weight: bold;
+}
+.newpro_addbuy{
+    width: 1.52rem;
+    height: 0.43rem;
+    border-radius: 0.05rem;
+    background: #ffcb3f;
+    position: absolute;
+    text-align: center;
+    line-height: 0.43rem;
+    right: 0.23rem;
+    bottom: 0.08rem;
+    font-weight: bold;
+    color: white;
+    font-size: 0.22rem;
+}
+.newpro_addbuy i{
+    font-size: 0.16rem;
+    color: white;
+}
+.bigad{
+    width: 6.99rem;
+    height: 6.93rem;
+    margin: auto;
+    padding-top: 1.05rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.bigad img{
+    display: block;
+    width: 6.25rem;
+    height: 2.62rem;
+    margin-left: 0.37rem;
+}
+.bigad .sofa_title{
+    margin-left: 0.6rem;
+    margin-top: 0.58rem;
+    font-size: 0.31rem;
+    font-weight: bold;
+}
+.bigad .sofa_detail{
+    font-size: 0.2rem;
+    margin-top: 0.14rem;
+    margin-left: 0.6rem;
+}
+.bigad .sofa_shuffl{
+    position: absolute;
+    top: 4.79rem;
+    right: 0.81rem;
+    width: 0.21rem;
+    height: 1.11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sofa_shuffl li{
+    width: 0.16rem;
+    height: 0.16rem;
+    border-radius: 50%;
+}
+.sofa_shuffl-1{
+    background: #abe3e6;
+}
+li.sofa_shuffl-2{
+    width: 0.21rem;
+    height: 0.21rem;
+    background: #cecdca;
+}
+.sofa_shuffl-3{
+    background: #ffcb3f;
+}
+.bigad .sofa_price{
+    margin-left: 0.63rem;
+    margin-top: 1.09rem;
+    font-size: 0.18rem;
+}
+.sofa_price span{
+    font-size: 0.3rem;
+}
+.sofa_buy{
+    margin-top: 0.13rem;
+    margin-left: 0.65rem;
+}
+.sofa_shop{
+    width: 7rem;
+    height: 8.56rem;
+    margin: 0.22rem auto 0;
+}
+.sofa_shop li{
+    float: left;
+}
+.sofa_shopitem{
+    width: 3.38rem;
+    height: 4.16rem;
+    margin: 0 0.24rem 0.24rem 0;
+    position: relative;
+}
+.sofa_shopitem:nth-child(2n){
+    margin-right: 0;
+}
+.sofa_shop li p{
+    margin-left: 0.45rem;
+    margin-top: 0.19rem;
+    font-size: 0.18rem;
+}
+.sofa_shop li p span{
+    font-size: 0.26rem;
+    font-weight: bold;
+}
+.sofa_shop li img{
+    display: block;
+    margin-top: 0.48rem;
+    margin-left: 0.42rem;
+    width: 1.8rem;
+    height: auto;
+}
+.sofashop_price{
+    font-size: 0.18rem;
+}
+.sofashop_price span{
+    font-size: 0.26rem;
+}
+.sofashop_buy{
+    margin-left: 0.43rem;
+    margin-top: 0.02rem;
+    font-size: 0.18rem;
+}
+.sofashop_shuffl{
+    width: 0.15rem;
+    height: 0.81rem;
+    position: absolute;
+    right: 0.38rem;
+    bottom: 0.61rem;
+}
+.sofashop_shuffl li{
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    background: #d9a2cf;
+}
+.sofashop_shuffl li:nth-child(2){
+    margin: 0.18rem 0;
+}
+.see_more{
+    width: 3.85rem;
+    height: 0.25rem;
+    margin: 0.38rem auto 0;
+    text-align: center;
+    font-size: 0.18rem;
+    color: #a6a6a6;
+}
+.foot{
+    width: 100%;
+    height: 8rem;
+}
+.sofa_eleven{
+    display: block;
+    width: 7.02rem;
+    height: 4.38rem;
+    margin: 0.65rem auto 0;
+}
+.sofa_11-detail{
+    width: 6.6rem;
+    height: 3.16rem;
+    margin: 0.41rem auto 0;
+    text-align: center;
+}
+.sofa_11-title{
+    font-size: 0.28rem;
+    font-weight: bold;
+    margin-bottom: 0.28rem;
+}
+.sofa_11-detail span{
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+}
+.know_more {
+    width: 1.4rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    margin: 0.18rem auto 0;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.18rem;
+    border: 1px solid #fad268;
+}
+.vicor{
+    width: 7.5rem;
+    height: 3.34rem;
+    margin: 0.57rem auto 0.98rem;
+    position: relative;
+}
+.vicor img{
+    display: block;
+    width: 7.5rem;
+    height: auto;
+}
+.mask{
+    width: 7.5rem;
+    height: 3.34rem;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.vicor_content{
+    width: 100%;
+    height: 2rem;
+    z-index: 1;
+    position: absolute;
+    top: 0.82rem;
+    left: 0;
+    text-align: center;
+}
+.viccont_title{
+    color: white;
+    font-weight: bold;
+    font-size: 0.2rem;
+}
+.vicor_content .vicor_underline{
+    position: absolute;
+    top: 0.34rem;
+    left: 3.36rem;
+    width: 0.78rem;
+    height: 0.02rem;
+    background: #cca74a;
+}
+.vicor_content .vicor_china{
+    font-size: 0.28rem;
+    font-weight: bold;
+    color:white;
+    margin: 0.15rem 0;
+}
+.vicor_detail{
+    font-size: 0.18rem;
+    color: rgba(225,225,225,0.8);
+}
+.foot_tab{
+    width: 7.5rem;
+    height: 0.98rem;
+    background: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.foot_tab .foot_item{
+    width: 1.875rem;
+    height: 0.98rem;
+    float: left;
+    text-align: center;
+    font-size: 0.2rem;
+    padding-top: 0.16rem;
+    box-sizing: border-box;
+}
+.foot_tab .foot_item:nth-child(1),.foot_tab .foot_item:nth-child(1) i{
+    color: #ffcb3f;
+}
+.foot_item i{
+    font-size: 0.4rem;
+    color: #000;
+}

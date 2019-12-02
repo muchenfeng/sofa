@@ -1,0 +1,205 @@
+@import "headfoot.css";
+div.shopcar{
+    margin-top: 0.88rem;
+    width: 7.5rem;
+    height: auto;
+}
+.shopcar_item{
+    width: 7.5rem;
+    height: 2.23rem;
+    overflow: hidden;
+}
+.choose{
+    width: 0.23rem;
+    height: 0.23rem;
+    border-radius: 50%;
+    border: 0.01rem solid #ffcb3f;
+    margin: 1.05rem 0 0 0.42rem;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choose-1{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background: #ffcb3f;
+}
+.shopcar_item img{
+    display: block;
+    width: 1.99rem;
+    height: 1.4rem;
+    float: left;
+    margin: 0.47rem 0 0 0.2rem;
+ }
+.shopprice{
+    width:auto;
+    height: 1.07rem;
+    margin: 0.57rem 0 0 0.18rem;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.shopprice .eng-title{
+    font-size: 0.18rem;
+    font-weight: lighter;
+}
+.china-title{
+    font-size: 0.24rem;
+    color: #000;
+}
+.shop-detail{
+    font-size: 0.18rem;
+    font-weight: lighter;
+    color: #676767;
+}
+.shop-price{
+    font-size: 0.18rem;
+}
+.shop-price span{
+    font-size: 0.24rem;
+    font-weight: bold;
+}
+.addsub{
+    width: 1.65rem;
+    height: 0.38rem;
+    float: right;
+    margin: 0.98rem 0.39rem 0 0;
+    line-height: 0.38rem;
+    font-size: 0.29rem;
+    display: flex;
+    justify-content: space-between;
+}
+.addsub div{
+    width: 0.37rem;
+    height: 0.37rem;
+    border: 0.01rem solid black;
+    text-align: center;
+}
+.shopcar_hr{
+    width: 7.04rem;
+    height: 0.01rem;
+    background: #f2f2f2;
+    margin: auto;
+}
+.shopcar_hr-1{
+    background: #ffcb3f;
+    width: 0.42rem;
+    height: 0.02rem;
+    margin-top: -0.01rem;
+}
+.recommend_shop{
+    width: 1.4rem;
+    height: 0.3rem;
+    margin: 0.69rem 0 0.45rem 0.24rem;
+    font-size: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recommend_shop-left{
+    width: 0.03rem;
+    height: 0.21rem;
+    background: #ffcb3f;
+}
+.recommend_list{
+    width: 6.76rem;
+    height: 10.41rem;
+    margin: 0.24rem auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.recommend_item{
+    width: 3.24rem;
+    height: 5.08rem;
+    margin: 0 0.26rem 0.25rem 0;
+}
+.recommend_item_1{
+    width: 3.26rem;
+    height: 5.09rem;
+    margin-bottom: 0.25rem;
+}
+.recommend_list li img{
+    display: block;
+    width: 100%;
+    height: 3.12rem;
+}
+.recommend_list li .recommend_unline{
+    width: 0.32rem;
+    height: 0.03rem;
+    margin: 0.16rem 0 0 0.23rem;
+    background: black;
+}
+.recommend_detail{
+    font-size: 0.18rem;
+    margin: 0.11rem 0 0 0.22rem;
+}
+.recommend_detail span{
+    font-size: 0.24rem;
+}
+.recommend_price{
+    font-size: 0.18rem;
+    margin: 0.65rem 0 0 0.2rem;
+}
+.recommend_price span{
+    font-size: 0.23rem;
+    font-weight: bold;
+}
+.recommend_xia{
+    margin-bottom: 0;
+}
+.settle{
+    width: 7.5rem;
+    height: 0.9rem;
+    margin-bottom: 0.98rem;
+}
+.settle_choose{
+    width: 0.22rem;
+    height: 0.22rem;
+    border: 0.01rem solid #ffcb3f;
+    border-radius: 50%;
+    float: left;
+    margin: 0.34rem 0 0 0.42rem;
+}
+.settle_allchoose{
+    margin: 0.3rem 0 0 0.28rem;
+    float: left;
+    font-size: 0.24rem;
+}
+.combine{
+    float: left;
+    margin: 0.22rem 0 0 0.27rem;
+}
+.com_price{
+    font-size: 0.18rem;
+}
+.com_price span:first-child{
+    font-size: 0.24rem;
+}
+.com_price span:last-child{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #ffcb3f;
+}
+.combine p:nth-child(2){
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.7);
+}
+.to_combine{
+    width: 2.12rem;
+    height: 0.89rem;
+    border-radius: 0.05rem;
+    text-align: center;
+    line-height: 0.89rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: white;
+    background: #ffcb3f;
+    float: right;
+}
+.foot_tab a:nth-child(3),.foot_tab a:nth-child(3) i{
+    color: #ffcb3f;
+}

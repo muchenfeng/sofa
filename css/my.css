@@ -1,0 +1,114 @@
+@import "headfoot.css";
+body{
+    background: #f8f8f8;
+}
+.banner{
+    width: 7.5rem;
+    height: auto;
+}
+.content{
+    position: relative;
+}
+.person_infor{
+    width: 7.02rem;
+    height: 3.1rem;
+    border-radius: 0.1rem;
+    box-shadow: 0 0 10px 6px #f0f0f0;
+    position: absolute;
+    top: 1.28rem;
+    left: 0.24rem;
+    background: white;
+    overflow: hidden;
+}
+.infor_name{
+    float: left;
+    margin: 0.59rem 0 0.09rem 0.49rem;
+    font-size: 0.26rem;
+    line-height: 0.3rem;
+}
+.infor_name i{
+    color: #ffcb3f;
+    font-size: 0.26rem;
+}
+.head_port{
+    width: 0.92rem;
+    height: 0.92rem;
+    border-radius: 50%;
+    float: right;
+    margin: 0.39rem 0.55rem 0 0;
+    overflow: hidden;
+}
+.head_port img{
+    width: 1rem;
+    height: auto;
+}
+.infor_name span{
+    color: rgba(0,0,0,0.7);
+    font-size: 0.18rem;
+}
+.payment{
+    width: 6.02rem;
+    height: auto;
+    margin: 2rem auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.pay_item{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.pay_item i{
+    font-size: 0.36rem;
+    color: #000;
+}
+.pay_item p{
+    font-size: 0.24rem;
+    margin-top: 0.12rem;
+}
+.my_fault{
+    width: 7.02rem;
+    height: auto;
+    margin: 0.75rem auto 0;
+    border-radius: 0.1rem;
+    box-shadow: 0 0 10px 6px #f0f0f0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.my_fault-item{
+    width: auto;
+    height: auto;
+    margin: 0.30rem 0.65rem;
+    text-align: center;
+}
+.my_fault-item i{
+    font-size: 0.36rem;
+    color: #000;
+}
+.my_fault-item p{
+    font-size: 0.24rem;
+    margin-top: 0.18rem;
+}
+.correlation{
+    width: 7.02rem;
+    height: 2.42rem;
+    box-sizing: border-box;
+    padding: 0.4rem 0.5rem 0.64rem;
+    margin: 0.27rem auto 0.98rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.corre_me{
+    font-size: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.corre_me i{
+    font-size: 0.33rem;
+    color: #333;
+}
+.foot_tab a:nth-child(4),.foot_tab a:nth-child(4) i{
+    color: #ffcb3f;
+}
